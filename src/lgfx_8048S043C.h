@@ -72,9 +72,9 @@ public:LGFX(void){
   
   { auto cfg = _touch_instance.config();
   cfg.x_min             = 0;      // タッチスクリーンから得られる最小のX値(生の値)
-  cfg.x_max             = 799;    // タッチスクリーンから得られる最大のX値(生の値)
+  cfg.x_max             = 480;    // タッチスクリーンから得られる最大のX値(生の値)
   cfg.y_min             = 0;      // タッチスクリーンから得られる最小のY値(生の値)
-  cfg.y_max             = 479;    // タッチスクリーンから得られる最大のY値(生の値)
+  cfg.y_max             = 272;    // タッチスクリーンから得られる最大のY値(生の値)
   cfg.pin_int           = -1;     // INTが接続されているピン番号 18
   cfg.bus_shared        = false;  // 画面と共通のバスを使用している場合 trueを設定
   cfg.offset_rotation   = 0; // 表示とタッチの向きの調整 0~7の値で設定
